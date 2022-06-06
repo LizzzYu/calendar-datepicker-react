@@ -1,0 +1,31 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border-width: 0;
+  border-style: hidden;
+  background-color: transparent;
+  color: #888888;
+  font-size: 16px;
+  line-height: 16px;
+
+  > img {
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: #eeeeee;
+    cursor: pointer;
+  }
+}
+
+.centerButton {
+  flex-grow: 1;
+}

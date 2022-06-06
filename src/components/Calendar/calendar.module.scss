@@ -1,0 +1,47 @@
+.wrapper {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid #666666;
+  padding: 10px;
+}
+
+.weakDays {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  padding: 10px 0;
+
+  > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+}
+
+.textContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #888888;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gridColumn7 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.gridColumn4 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
